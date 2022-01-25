@@ -4,6 +4,13 @@ Os acaban de contratar para continuar el desarrollo de la aplicación de caja de
 ha ido a las Bahamas y os ha dejado a cargo de su _legacy code_.
 
 
+### Cómo trabajar con Legacy Code
+
+Llamamos "legacy code" (código legado o heredado) a un código que funciona pero que no tiene código de tests. Éste normalmente
+ha sido escrito por otras personas (o por nosotras hace tiempo), y tiene la característica de que es difícil de cambiar.
+
+Para poder realizar cambios en una base de código legado, primero tenemos que escribir tests que nos aseguren que no nos cargamos nada.
+
 
 ### Funcionalidades que nos piden: 
 
