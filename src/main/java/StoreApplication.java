@@ -20,18 +20,16 @@ public class StoreApplication {
     }
 
     public void printInfoMessage() {
-        String infoMessage = """
-                    LegacyGames Application 13.4.6
-                    © TruñoSoft 2022
-                    
-                    Realice una de las siguientes acciones para continuar
-                    
-                    (l) Muestra la lista de productos
-                    (a) Añade un producto a la compra actual
-                    (p) Genera un recibo de compra
-                    (q) Salir del programa
-                     
-                """;
+        String infoMessage = "    LegacyGames Application 13.4.6\n" +
+                             "    © TruñoSoft 2022\n" +
+                             "\n" +
+                             "    Realice una de las siguientes acciones para continuar\n" +
+                             "\n" +
+                             "    (l) Muestra la lista de productos\n" +
+                             "    (a) Añade un producto a la compra actual\n" +
+                             "    (p) Genera un recibo de compra\n" +
+                             "    (q) Salir del programa\n" +
+                             "\n";
         System.out.println(infoMessage);
     }
 
